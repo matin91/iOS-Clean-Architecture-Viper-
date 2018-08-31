@@ -36,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		0DFE8E51466770BB0911645A /* Pods_iOS_Viper_Architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Viper_Architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1501C1F91E588B550013EA25 /* iOS-Viper-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Viper-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1501C1F91E588B550013EA25 /* Swift Clean Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Clean Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1501C1FC1E588B550013EA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1501C1FE1E588B550013EA25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1501C2011E588B550013EA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		1501C1FA1E588B550013EA25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1501C1F91E588B550013EA25 /* iOS-Viper-Architecture.app */,
+				1501C1F91E588B550013EA25 /* Swift Clean Architecture.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,9 +276,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1501C1F81E588B550013EA25 /* iOS-Viper-Architecture */ = {
+		1501C1F81E588B550013EA25 /* Swift Clean Architecture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1501C20E1E588B550013EA25 /* Build configuration list for PBXNativeTarget "iOS-Viper-Architecture" */;
+			buildConfigurationList = 1501C20E1E588B550013EA25 /* Build configuration list for PBXNativeTarget "Swift Clean Architecture" */;
 			buildPhases = (
 				890F79F19AD699F69D2FB509 /* [CP] Check Pods Manifest.lock */,
 				1501C1F51E588B550013EA25 /* Sources */,
@@ -290,9 +290,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS-Viper-Architecture";
+			name = "Swift Clean Architecture";
 			productName = "iOS-Viper-Architecture";
-			productReference = 1501C1F91E588B550013EA25 /* iOS-Viper-Architecture.app */;
+			productReference = 1501C1F91E588B550013EA25 /* Swift Clean Architecture.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -312,7 +312,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1501C1F41E588B550013EA25 /* Build configuration list for PBXProject "iOS-Viper-Architecture" */;
+			buildConfigurationList = 1501C1F41E588B550013EA25 /* Build configuration list for PBXProject "Swift Clean Architecture" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -325,7 +325,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1501C1F81E588B550013EA25 /* iOS-Viper-Architecture */,
+				1501C1F81E588B550013EA25 /* Swift Clean Architecture */,
 			);
 		};
 /* End PBXProject section */
@@ -558,7 +558,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS-Viper-Architecture/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mindorks.iOS-Viper-Architecture";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocklobstre.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -573,7 +573,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS-Viper-Architecture/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mindorks.iOS-Viper-Architecture";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocklobstre.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -583,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1501C1F41E588B550013EA25 /* Build configuration list for PBXProject "iOS-Viper-Architecture" */ = {
+		1501C1F41E588B550013EA25 /* Build configuration list for PBXProject "Swift Clean Architecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1501C20C1E588B550013EA25 /* Debug */,
@@ -592,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1501C20E1E588B550013EA25 /* Build configuration list for PBXNativeTarget "iOS-Viper-Architecture" */ = {
+		1501C20E1E588B550013EA25 /* Build configuration list for PBXNativeTarget "Swift Clean Architecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1501C20F1E588B550013EA25 /* Debug */,

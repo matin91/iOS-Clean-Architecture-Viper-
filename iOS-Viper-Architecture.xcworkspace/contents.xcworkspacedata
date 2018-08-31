@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:iOS-Viper-Architecture.xcodeproj">
+      location = "group:/Users/matinsalehi/Downloads/iOS-Viper-Architecture-master/Swift Clean Architecture.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
