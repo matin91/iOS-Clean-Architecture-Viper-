@@ -2,7 +2,7 @@
 //  Post+CoreDataClass.swift
 //  
 //
-//  Created by Amit Shekhar on 19/02/17.
+//  Created by Matin on 19/02/17.
 //
 //
 

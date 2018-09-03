@@ -12,7 +12,7 @@
         <!--Post Detail View-->
         <scene sceneID="xfU-dy-Rt5">
             <objects>
-                <viewController storyboardIdentifier="PostDetailController" id="5wH-fr-vNS" customClass="PostDetailView" customModule="iOS_Viper_Architecture" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PostDetailController" id="5wH-fr-vNS" customClass="PostDetailView" customModule="Swift_Clean_Architecture" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OFz-HC-hD2"/>
                         <viewControllerLayoutGuide type="bottom" id="y6d-uU-Rzq"/>
@@ -78,7 +78,7 @@
         <!--Posts-->
         <scene sceneID="ixv-TJ-Tt9">
             <objects>
-                <viewController id="my2-XR-urz" customClass="PostListView" customModule="iOS_Viper_Architecture" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="my2-XR-urz" customClass="PostListView" customModule="Swift_Clean_Architecture" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xh6-VJ-ks9"/>
                         <viewControllerLayoutGuide type="bottom" id="Y4h-up-NNk"/>
@@ -91,7 +91,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="150" id="e60-1j-CGc" customClass="PostTableViewCell" customModule="iOS_Viper_Architecture" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="150" id="e60-1j-CGc" customClass="PostTableViewCell" customModule="Swift_Clean_Architecture" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e60-1j-CGc" id="OaK-qA-B8s">
@@ -136,6 +136,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="name" destination="x4V-g4-lJI" id="qee-AX-ZWv"/>
                                             <outlet property="postImageView" destination="x4V-g4-lJI" id="6jE-EY-dgj"/>
                                             <outlet property="titleLabel" destination="ctv-fA-AhL" id="iTm-dI-xTT"/>
                                         </connections>

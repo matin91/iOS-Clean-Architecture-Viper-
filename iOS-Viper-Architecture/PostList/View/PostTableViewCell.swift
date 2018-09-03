@@ -2,7 +2,7 @@
 //  PostTableViewCell.swift
 //  iOS-Viper-Architecture
 //
-//  Created by Amit Shekhar on 19/02/17.
+//  Created by Matin on 19/02/17.
 //  Copyright © 2017 Mindorks NextGen Private Limited. All rights reserved.
 //
 
